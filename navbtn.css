@@ -1,0 +1,46 @@
+/* .btn{
+    padding: 10px;
+    display: none;
+    right: 0px;
+    
+}
+.btn button{
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background: none;
+    gap: 8px;
+    border: none;
+    outline: none;
+    background-color: red;
+    border-radius: 9px;
+}
+
+button .bar{
+    width: 100%;
+    border-radius: 10px;
+    background-color: white;
+    height: 3px;
+}
+
+@media screen and (max-width:978px) {
+    .btn{
+        display: block;
+    }
+    .nav-list{
+        display: none;
+    }
+
+
+}
+
+/* 1400px and after 479px */
+
+/* @media screen and (max-width:479px) {
+    .btn{
+        margin-right: 100px;
+    }
+    
+} */ 
+

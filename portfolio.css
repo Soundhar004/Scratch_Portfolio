@@ -1,0 +1,660 @@
+*{
+    margin: 0px;
+    padding:0px;
+    font-family: sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+   
+    background-color: black;
+
+}
+
+.container{
+    min-height: 100vh;
+    background-color:black;
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(360deg, #313131 10%, #444343 360%);
+    
+    width:100%;
+    position: sticky;
+    top: 0px;
+    position: fixed;
+    z-index: 2;
+    /* border-radius: 0px 0px 12px 12px ; */
+}
+
+.header .logo {
+    font-size: 35px;
+    padding: 20px;
+    margin-left: 5%;
+    letter-spacing: 6px;
+    font-weight: bold;
+    color: white;
+    
+}
+
+.nav-list ul{
+    display:flex;
+    font-size: 30px;
+    position: relative;
+    width: 100%;
+    right: 10%;   
+}
+
+.nav-list ul li{
+    list-style-type: none;
+    padding: 25px; 
+}
+
+.nav-list ul li a{
+    text-decoration: none;
+    color:white;
+}
+
+.nav-list ul li a:hover{
+    color: cyan;
+    text-decoration: underline;
+}
+
+/*Header over next landing page starts*/
+
+.landing{
+    width: 100%;
+    
+}
+.total-content{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.inside-total-content{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    width: 45%;
+    color: white;
+    margin-top: 10%;
+    margin-bottom: 200px;
+    
+}
+.total-content .image{
+    height: 470px;
+    overflow: hidden;
+    border-radius: 0% 50% 50% 50%;
+    margin-top: 200px;
+}
+.image img{
+    width: 350px;
+    border-radius: 10px;
+    border-radius: 10% 50% 50% 50%;
+    filter: brightness(90%);
+
+}
+
+.para h5{
+    padding-bottom: 40px;
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing: 4px;
+    color: rgb(211, 211, 211); 
+}
+.para p{
+    padding:10px 10px 10px 0px;
+    line-height: 40px;
+    font-size: 25px;
+    color: lightgray;
+}
+/* This for rough and alternative*/
+/* .para h1 .auto-type{
+    color: cyan;
+    border-right: 4px solid orange;
+    width: 16ch;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 3s steps(16) infinite, blink 0.5s step-end infinite alternate;
+    
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }    
+}
+
+@keyframes blink {
+    50%{
+        border-color: transparent;
+    }
+    
+} */
+
+.auto-type{
+    color: cyan;
+       
+}
+
+.social-media{
+    padding: 20px 20px 20px 0px;
+}
+.social-images{
+    display: flex;
+    gap: 30px;
+    position: relative;
+}
+.social-images a{
+    width: 50px;
+    height: 50px;
+    border: 2px solid cyan;
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden;
+    /* box-shadow: 0px 0px 5px 5px rgb(14, 128, 128); */
+}
+
+.social-images a i{
+    color: cyan;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 26px;
+    z-index: 0;
+    transition: all 0.25s ease;
+}
+.social-images a:hover i{
+    color: black;
+    z-index: 1;
+}
+.social-images a:hover {
+    box-shadow: 0px 0px 5px 5px rgb(14, 128, 128);
+}
+.social-images a:before,
+.social-images a::after{
+    position: absolute;
+    content: "";
+    top: -1px;
+    left: -1px;
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    border: 0px solid transparent;
+}
+.social-images a:hover:before{
+    border-width:70px;
+    border-top-color: cyan;
+    transition: border-top-width 0.4s ease , border-top-color 0.4s ease;
+}
+.social-images a:hover:after{
+    border-width:70px;
+    border-left-color: cyan;
+    transition: border-left-width 0.4s ease , border-left-color 0.4s ease;
+}
+
+
+/* .social-images a:hover i{
+    transition: color 0.8s ease;
+    color:black;
+}
+
+.social-images a:hover{
+    transition: background-color 0.5s ease;
+    background-color: cyan;
+} */
+
+
+
+.resume-btn{
+    padding: 30px 30px 30px 0px;
+       
+}
+.resume-btn button{
+    font-size: 20px;
+    padding: 16px 24px 16px 24px;
+    border: none;
+    border-radius: 30px;
+    background-color: cyan;
+    color: black;
+    font-weight: 550;  
+    
+}
+.resume-btn button:hover{
+    box-shadow: 0px 0px 5px 5px rgb(14, 128, 128);
+    
+}
+.resume-btn button:hover{
+    background-color: rgb(35, 247, 247);
+}
+
+.div-hr hr{
+    width: 90%;
+    margin-left: 5%;
+}
+
+/* about page starts... */
+
+.about{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 200px; 
+    
+    
+}
+.about-image img{
+    width: 450px;
+    height: 450px;
+    border-radius: 20px;
+    margin-bottom: 100px;
+}
+.about-content{
+    color: white;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.about-heading{
+    font-size: 44px;
+    padding: 10px 10px 10px 0px;
+    letter-spacing: 5px;
+    
+}
+.about-heading span{
+    color: cyan;
+}
+
+.about-intro h5{
+    font-size: 16px;
+    padding: 10px 10px 10px 0px;
+    color: rgb(211, 211, 211); 
+    letter-spacing: 3px;
+    font-weight: lighter;
+}
+
+.about-intro2{
+    font-size: 36px;
+    padding:10px 10px 10px 0px;
+    color: lightcyan;
+    
+}
+
+.about-para{
+    padding:10px 10px 10px 0px;
+    line-height: 40px;
+    font-size: 25px;
+    color: lightgray;
+}
+.about-btn{
+    padding: 20px 20px 20px 0px;
+}
+.about-btn button{
+    font-size: 20px;
+    padding: 16px 24px 16px 24px;
+    border: none;
+    border-radius: 30px;
+    background-color: cyan;
+    color: black;
+    font-weight: 550; 
+}
+
+
+/* Skills Page Starts */
+
+.skill-page{
+    margin-top: 150px;
+    
+   
+}
+
+.skill-page-heading{
+    text-align: center;
+    color: white;
+    
+   
+}
+.skill-page-heading h1{
+    padding:10px;
+    font-size: 60px;
+}
+.skill-page-heading h1 span{
+    color: cyan;
+}
+.skill-page-heading p{
+    padding: 10px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: lightgray;
+    text-transform: uppercase;
+}
+
+.skill-professional{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+.skill{
+    
+}
+.professional{
+   
+}
+
+.technical-skill{
+    text-align: center;
+    padding: 16px;
+    font-size: 26px;
+    color: white;
+    font-weight: 600;
+}
+
+
+.html-logo img{
+    width: 35px;
+}
+.html{
+    margin: 20px;
+    padding: 10px;
+}
+.html-logo-text{
+    display: flex;
+    padding: 10px 10px 10px 0px;
+    
+}
+.html-text{
+    padding-top: 16px;
+    padding-left: 5px;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.python .html-logo img{
+    width: 40px;
+}
+.css .html-logo img{
+    width: 44px;
+    position: relative;
+    left: -5px;
+    bottom: -2px;
+}
+.css .html-text{
+    position: relative;
+    left: -10px;
+    bottom: -6px;
+}
+.html-original .html-logo img{
+    width: 32px;
+}
+
+
+
+
+.border{
+    width: 450px;
+    height: 8px;
+    border: 1px solid black;
+    border-radius: 4px;   
+    background-color:grey; 
+    
+}
+.html-border .border .percent{
+    height: 8px;
+    background-color: cyan;
+    border-radius: 4px;
+    position: relative;
+    animation: barfilling 3s ease-out;
+}
+
+.border .percent:before{
+    content: attr(per);
+    color:white;
+    position: absolute;
+    top: -32px;
+    right: 0px;
+    font-size: 16px;
+    padding: 4px;
+    border-radius: 4px;
+    transform: translateX(50%);
+    
+}
+
+
+@keyframes barfilling {
+    from {
+        width: 0%;
+    }
+    to{
+        width: 100%;
+    }   
+}
+
+/* Professional skills starts */
+
+.professional {
+    width: 600px;
+}
+
+.professional-skills{
+    text-align: center;
+    padding: 16px;
+    font-size: 26px;
+    color: white;
+    font-weight: 600;
+}
+
+.communication{
+    text-align: center;
+    width: 167px;
+}
+
+.communication .circle{
+    width: 165px;
+    height: 165px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: conic-gradient(cyan 3.6deg, white 0deg);
+}
+
+
+.circle .inside-circle{
+    width: 152px;
+    height: 152px;
+    background-color:black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle .percentage{
+    color: white;
+    font-size: 18px;
+}
+
+.communication .text{
+    padding-top: 20px;
+    font-size:18px;
+    color: white;
+    text-align: center;
+}
+
+.communication-teamwork{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 110px;
+    
+}
+.project-creativity{
+    margin-top: 50px;
+
+}
+
+
+.after-skills hr{
+    margin-top: 200px;
+    
+}
+/* nav  button*/
+.btn{
+    padding: 10px;
+    display: none;
+    right: 0px;
+    padding: 14px 20px 0px 0px;
+}
+.btn button{
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 8px 10px 8px;
+    background: none;
+    gap: 8px;
+    border: none;
+    outline: none;
+    background-color: red;
+    border-radius: 9px;
+}
+
+button .bar{
+    width: 100%;
+    border-radius: 14px;
+    background-color: white;
+    height: 2px;
+}
+
+/* Loader */
+
+
+.load {
+    display: flex;
+    border-radius: 50%;
+    flex-direction: row;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+  
+  .progress {
+    
+    width: 2em;
+    height: 2em;
+    margin: 0.4em;
+    scale: 0;
+    border-radius: 50%;
+    background:cyan;
+    animation: loading_492 2s ease infinite;
+    animation-delay: 0.5s;
+   
+  }
+  
+  @keyframes loading_492 {
+    50% {
+      scale: 1;
+    }
+  }
+  
+  .progress:nth-child(2) {
+    animation-delay: 0.8s;
+  }
+  
+  .progress:nth-child(3) {
+    animation-delay: 1.2s;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#h2 {
+    color: white;
+    mix-blend-mode: difference; /* this will change color of loading  text      */
+    /*text-align: center;
+    margin: 0;
+    font-size: 12px;
+    line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0 0 3px;
+    padding: 0;
+    letter-spacing: 5px;
+  }
+  
+  .div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    max-width: 200px; /* Use viewport width for responsive width */
+    /*width: 100%;
+    height: 30px;
+    background: linear-gradient(to right, white, black);
+    background-size: 200% 100%;
+    animation-delay: 2s;
+    border-radius: 10px;
+    box-shadow: 0 0 3px;
+    -webkit-box-reflect: below 1px
+      linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
+    animation: gradientAnimation 10s linear infinite reverse;
+  }
+  
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0;
+    }
+  
+    100% {
+      background-position: 200% 0;
+    }
+  }
+  
+  /* Use media queries for responsiveness */
+ /*@media (max-width: 768px) {
+    .div {
+      width: 500px; /* Adjust width for smaller screens */
+      /*left: 50%;
+    }
+  } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+ 
+  
+  

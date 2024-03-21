@@ -1,0 +1,912 @@
+@media screen and (max-width:1500px) {
+    .service-cards .card1{
+        width: 420px;
+        height: 350px;
+    }
+    .card1-heading h2{
+        font-size: 28px;
+    }
+
+}
+
+
+
+/* 1200px  */
+@media screen and (max-width:1200px) {
+    .side-nav{
+      
+    }
+    .header .logo{
+        font-size: 30px;
+    }
+    .nav-list{
+        margin-right: 30px;
+    }
+    .nav-list ul{
+        font-size: 24px;
+    }
+    .inside-total-content{
+        font-size: 20px;
+    }
+    .para h5{
+        font-size: 16px;
+        margin-top: 100px;
+    }
+    .para p{
+        font-size: 20px;
+    }
+    .total-content .image{
+        height: 410px;
+        overflow: hidden;
+        border-radius: 0% 50% 50% 50%;
+        margin-top: 200px;
+    }
+    .image img{
+        width: 300px; 
+        border-radius: 10% 50% 50% 50%;
+        filter: brightness(90%);
+    }
+    .social-images a{
+        width: 45px;
+        height: 45px;
+    }
+    .resume-btn button{
+        font-size: 18px;
+    }
+    /* about */
+    .about-image img{
+        width: 350px;
+        height: 350px;
+        margin-top: 50px;
+    }
+    .about-heading{
+        font-size: 34px;
+    }
+    .about-intro h5{
+        font-size: 14px;
+    }
+    .about-para{
+        font-size: 20px;
+    }
+    .about-btn button{
+        font-size: 16px;
+    }
+    .about{
+        margin-top: 120px;
+    }
+    /* skills */
+    .skill-page{
+        margin-top: 100px;
+    }
+    .skill-page-heading h1{
+        font-size: 50px;
+    }
+    .skill-page-heading p{
+        font-size: 16px;
+    }
+    .technical-skill{
+        font-size: 24px;
+    }
+    .border{
+        width: 400px;
+    }
+    .professional-skills{
+        font-size: 24px;
+    }
+    .communication .circle{
+        width: 150px;
+        height: 150px;
+    }
+    .circle .inside-circle{
+        width: 137px;
+        height: 137px;
+    }
+    /* projects */
+    .page-project .project-heading{
+        font-size: 24px;
+    }
+    .project-heading p{
+        font-size: 14px;
+    }
+    .box-text{
+        width: 300px;
+        height: 220px;
+    }
+    .box-text .box img{
+        width: 300px;
+        height: 220px;
+    }
+    .box-text .text h2{
+        font-size: 15.9px;
+    }
+    .box-text .text h3{
+        font-size: 12px;
+    }
+    .box-text .text p{
+        font-size: 14px;
+        padding-bottom: 2px;
+    }
+    .box-text .text a {
+        width: 38px;
+        height: 38px;
+    }
+    .box-text .text a i{
+        font-size: 16px;
+    }
+    .box-text .text h2{
+        margin-top: 8px;
+    }
+    /*service box  */
+    .service-heading{
+        font-size: 24px;
+    }
+    .service-heading p{
+        font-size: 14px;
+    }
+    .service-cards .card1{
+        width: 250px;
+        height: 230px;
+    }
+    .card1-heading h2{
+        font-size: 18px;
+        padding: 5px 0px 2px 0px;
+    }
+    .card1-heading p{
+        font-size: 12px;
+        padding: 0px;
+    }
+    .card1 .card1-image i{
+        font-size: 24px;
+    }
+    .card1-content{
+        padding: 10px;
+    }
+    .card1-button button{
+        font-size: 10px;
+    }
+    .card1-button{
+        padding-top:5px;
+    }
+    /* footer */
+    footer .footer-heading{
+        font-size: 24px
+    }
+    footer .footer-heading p{
+        font-size: 14px;
+    }
+    .mail-call a{
+        font-size: 20px;
+    }
+    .inside-social-footer a{
+        width: 46px;
+        height: 46px;
+    }
+    .inside-social-footer a i{
+        font-size: 24px;
+    }
+}
+
+/* width 1082px */
+@media screen and (max-width:1092px) {
+    .nav-list ul li{
+        padding-left: 18px;
+        padding-right: 18px;
+        transition: all 1s;
+    }
+    .nav-list{
+        margin-right: -10px;
+    }
+    
+}
+
+
+/* width 927 */
+
+@media screen and (max-width:927px) {
+
+    .nav-list ul li{
+        font-size: 20px;
+    }
+    .nav-list{
+        margin-left: -160px;
+    }
+    .nav-list ul li{
+        padding-left: 14px;
+        padding-right: 14px;
+        transition: all 1s;
+    }
+    .header .logo{
+        font-size: 30px;
+    }
+
+    .total-content .image{
+        height: 340px;
+        overflow: hidden;
+        border-radius: 0% 50% 50% 50%;
+        margin-top: 200px;
+    }
+    .image img{
+        width: 250px; 
+        border-radius: 10% 50% 50% 50%;
+        filter: brightness(90%);
+    }
+    .inside-total-content{
+        font-size: 17px;
+    }
+    .social-images{
+        gap: 24px;
+    }
+    .social-images a{
+        width: 42px;
+        height: 42px;
+    }
+    .social-images a i {
+        font-size: 24px;
+    }
+    .resume-btn button{
+        font-size: 16px;
+    }
+    .border{
+        width: 350px;
+    }
+    .communication .circle{
+        width: 140px;
+        height: 140px;
+    }
+    .circle .inside-circle{
+        width: 128px;
+        height: 128px;
+    }
+    /* projects */
+    .box-text{
+        width: 240px;
+        height: 200px;
+    }
+    .box-text .box img{
+        width: 240px;
+        height: 200px;
+    }
+    .box-text .text h2{
+        font-size: 14px;
+    }
+    .box-text .text h3{
+        font-size: 10px;
+    }
+    .box-text .text p{
+        font-size: 12px;
+        padding-bottom: 2px;
+    }
+    .box-text .text a {
+        width: 34px;
+        height: 34px;
+    }
+    .box-text .text a i{
+        font-size: 14px;
+    }
+    .box-text .text h2{
+        margin-top: -10px;
+    }
+    /* services */
+    .service-cards .card1{
+        width: 236px;
+        height: 220px;
+    }
+    .card1-heading h2{
+        font-size: 16px;
+        padding: 5px 0px 2px 0px;
+    }
+    .card1-heading p{
+        font-size: 11px;
+        padding: 0px;
+    }
+    .card1 .card1-image i{
+        font-size: 22px;
+    }
+    .card1-content{
+        padding: 10px;
+    }
+    .card1-button button{
+        font-size: 10px;
+        padding: 10px 16px 10px 16px;
+    }
+    .card1-button{
+        padding-top:5px;
+    }
+}
+
+/* 768px width */
+@media screen and (max-width:768px) {
+    .side-nav{
+        visibility: visible;
+    }
+    #nav-btn{
+        display: block;
+    }
+    .inside-nav-button{
+        background-color: red;
+    }
+    .nav-list{
+        display: none;
+    }
+    .nav-list nav{
+        display: none;
+    }
+
+    .total-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+    }
+    .inside-total-content{
+        font-size: 20px;
+        width: 90%;
+        margin-bottom: -400px;
+    }
+    .para h5{
+        font-size: 16px;
+        margin-top: 100px;
+    }
+    .rough-home{
+        padding: 5px 10px 10px 10px;
+        margin-left: 30px;
+        width: 230px;
+        height: 320px;
+        overflow: hidden;
+        border-radius: 0% 50% 50% 50%;
+        
+    }
+    .rough-home-image{
+        content: url(images/medark.png);
+        width: 240px;
+        padding-top: 20px;
+        border-radius: 0% 50% 50% 50%;
+        
+    }
+    .para p{
+        font-size: 20px;
+    }
+    .image img{
+        width: 250px; 
+        margin-top: -30px;
+        display: none;
+        
+    }
+    .social-images a{
+        width: 45px;
+        height: 45px;
+    }
+    .resume-btn button{
+        font-size: 18px;
+    }
+    .div-hr hr{
+        width: 90%;
+        margin-left: 5%;
+    }
+    /* about */
+    .about{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .about-content{
+        width: 90%;
+        
+    }
+    .rough-about-image{
+        content: url(about_image.jpg);
+        width: 350px;
+        height: 350px;
+        border-radius: 14px;
+    }
+    .rough-about{
+        padding: 20px 0px 10px 0px;
+    }
+    .about-image img{
+        width: 350px;
+        height: 350px;
+        margin-top: 50px;
+        display: none;
+    }
+    .about-heading{
+        font-size: 32px;
+    }
+    .about-intro h5{
+        font-size: 14px;
+    }
+    .about-para{
+        font-size: 20px;
+    }
+    .about-btn button{
+        font-size: 16px;
+    }
+    .about{
+        margin-top: 120px;
+    }
+    /* skills */
+    .skill-professional{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .skill-page{
+        margin-top: 100px;
+    }
+    .skill-page-heading h1{
+        font-size: 46px;
+    }
+    .skill-page-heading p{
+        font-size: 16px;
+    }
+    .technical-skill{
+        font-size: 24px;
+    }
+    .border{
+        width: 400px;
+    }
+    .professional {
+        width: 90%;
+    }
+    .professional-skills{
+        margin-top: 50px;
+        font-size: 24px;
+    }
+    .communication .circle{
+        width: 150px;
+        height: 150px;
+    }
+    .circle .inside-circle{
+        width: 137px;
+        height: 137px;
+    }
+    .communication-teamwork{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 30px;
+        margin-top: 50px;   
+    }
+    /* projects */
+    .page-project{
+        margin-top: 180px;
+    }
+    .inside-project{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+    .page-project .project-heading{
+        font-size: 22px;
+        margin-bottom: 50px;
+    }
+    .project-heading p{
+        font-size: 12px;
+    }
+    .box-text{
+        width: 400px;
+        height: 250px;
+    }
+    .box-text .box img{
+        width: 400px;
+        height: 250px;
+    }
+    .box-text .text h2{
+        font-size: 20px;
+    }
+    .box-text .text h3{
+        font-size: 16px;
+    }
+    .box-text .text p{
+        font-size: 16px;
+        padding-bottom: 10px;
+    }
+    .box-text .text a {
+        width: 42px;
+        height: 42px;
+    }
+    .box-text .text a i{
+        font-size: 18px;
+    }
+    .box-text .text h2{
+        margin-top: 10px;
+    }
+    /* services */
+    .service-cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 80px;
+        position: relative;
+        
+    }
+    .service-heading{
+        font-size: 24px;
+    }
+    .service-heading p{
+        font-size: 14px;
+    }
+    .service-cards .card1{
+        width: 380px;
+        height: 280px;
+        margin-bottom: 60px;
+    }
+    .card1-heading h2{
+        font-size: 26px;
+        padding: 5px 0px 5px 0px;
+    }
+    .card1-heading p{
+        font-size: 16px;
+        padding: 0px;
+    }
+    .card1 .card1-image i{
+        font-size: 28px;
+    }
+    .card1-content{
+        padding: 16px;
+    }
+    .card1-button button{
+        font-size: 14px;
+    }
+    .card1-button{
+        padding-top:16px;
+    }
+    /* footer */
+    footer .footer-heading{
+        font-size: 22px
+    }
+    footer .footer-heading p{
+        font-size: 14px;
+    }
+    .mail-call a{
+        font-size: 20px;
+    }
+    .inside-social-footer{
+        gap: 18px;
+    }
+    .inside-social-footer a{
+        width: 42px;
+        height: 42px;
+    }
+    .inside-social-footer a i{
+        font-size: 22px;
+    }
+    .copyrights  p{
+        font-size: 18px;
+    }
+
+}
+/* 479px width */
+@media screen and (max-width:479px) {
+    .inside-total-content{
+        font-size: 14px;
+        width: 92%; 
+        margin-bottom: -500px; 
+    }
+    .btn{
+        
+    }
+    .btn button{
+        width: 48px;
+        gap: 7.6px;
+    }
+    .para h5{
+        font-size: 14px;
+        margin-top: 100px;
+    }
+    .total-content .image{
+        height: 410px;
+        overflow: hidden;
+        border-radius: 0% 50% 50% 50%;
+        margin-top: 200px;
+    }
+    .image img{
+        width: 300px; 
+        border-radius: 10% 50% 50% 50%;
+        filter: brightness(90%);
+    }
+    .rough-home{
+        height: 300px;
+        overflow: hidden;
+        padding: 5px 10px 10px 10px;
+        margin-left: 0px;
+        border-radius: 50% 50% 50% 50%;
+    }
+    .rough-home-image img{
+        content: url(images/medark.png);
+        width: 200px;
+        border-radius: 10px;
+        border-radius: 0% 50% 0% 50%;
+    }
+    .para p{
+        font-size: 18px;
+    }
+    .image img{
+        width: 250px; 
+        margin-top: -30px;
+        display: none;
+        
+    }
+    .social-images{
+        gap: 10px;
+    }
+    .social-images a:before,
+    .social-images a::after{
+        top: -2px;
+        left: -2px;
+    }
+    .social-images a{
+        width: 42px;
+        height: 42px;
+    }
+    .social-images a i{
+        font-size: 22.5px;
+    }
+    .resume-btn button{
+        font-size: 16px;
+    }
+    .div-hr hr{
+        width: 90%;
+        margin-left: 5%;
+    }
+    /* about */
+    .about-content{
+        width: 92%;
+    }
+    .rough-about-image{
+        content: url(about_image.jpg);
+        width: 230px;
+        height: 230px;
+        border-radius: 14px;
+        
+    }
+    .rough-about{
+        padding: 20px 0px 10px 0px;
+    }
+    .about-image img{
+        width: 350px;
+        height: 350px;
+        margin-top: 50px;
+        display: none;
+    }
+    .about-heading{
+        font-size: 30px;
+    }
+    .about-intro h5{
+        font-size: 12px;
+    }
+    .about-para{
+        font-size: 18px;
+    }
+    .about-btn button{
+        font-size: 16px;
+        padding: 14px 22px 14px 22px;
+    }
+    .about{
+        margin-top: 120px;
+    }
+    /* skills */
+    .skill-professional{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .skill-page{
+        margin-top: 100px;
+    }
+    .skill-page-heading h1{
+        font-size: 42px;
+        letter-spacing: 2.5px;
+    }
+    .skill-page-heading p{
+        font-size: 14px;
+        padding-top: 0px;
+    }
+    .technical-skill{
+        font-size: 24px;
+    }
+    .border{
+        width: 225px;
+        height: 6px;
+    }
+    .html-border .border .percent{
+        height: 6px;
+    }
+    .professional {
+        width: 92%;
+    }
+    .professional-skills{
+        margin-top: 50px;
+        font-size: 24px;
+    }
+    .communication .circle{
+        width: 110px;
+        height: 110px;
+    }
+    .circle .inside-circle{
+        width: 100px;
+        height: 100px;
+    }
+    .communication-teamwork{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 14px;
+        margin-top: 50px;   
+    }
+    .communication-teamwork{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 20px;
+        
+    }
+    .communication-teamwork .text{
+        text-align: center;
+        width: 120px;
+        font-size: 14px;
+    }
+    /* projects */
+    .page-project{
+        margin-top: 180px;
+    }
+    .inside-project{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+    .page-project .project-heading{
+        font-size: 20px;
+        margin-bottom: 50px;
+    }
+    .project-heading p{
+        font-size: 12px;
+    }
+    .box-text{
+        width: 280px;
+        height: 200px;
+    }
+    .box-text .box img{
+        width: 280px;
+        height: 200px;
+    }
+    .box-text .text h2{
+        font-size: 18px;
+       padding: 2px;
+    }
+    .box-text .text h3{
+        font-size: 14px;
+        padding: 5px;
+    }
+    .box-text .text p{
+        font-size: 13px;
+        padding: 5px 2px 2px 2px;
+    }
+    .box-text .text a:before,
+    .box-text .text a::after{
+        top: -2px;
+        left: -2px;
+    }
+    .box-text .text a {
+        width: 36px;
+        height: 36px;
+    }
+    .box-text .text a i{
+        font-size: 16px;
+    }
+    .box-text .text h2{
+        margin-top: 10px;
+    }
+    /* services */
+    .service-cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 80px;
+        position: relative;
+        
+    }
+    .service-heading{
+        font-size: 22px;
+    }
+    .service-heading p{
+        font-size: 14px;
+    }
+    .service-cards .card1{
+        width: 280px;
+        height: 220px;
+        margin-bottom: 60px;
+    }
+    .card1-heading h2{
+        font-size: 20px;
+        padding: 5px 0px 5px 0px;
+    }
+    .card1-heading p{
+        font-size: 13.5px;
+        padding: 0px;
+    }
+    .card1 .card1-image i{
+        font-size: 22px;
+        margin-top: -20px;
+    }
+    .card1-content{
+        padding: 14px;
+        padding-right: 10px;
+    }
+    .card1-button button{
+        font-size: 12px;
+    }
+    .card1-button{
+        padding-top:6px;
+    }
+
+    /* footer */
+    footer .footer-heading{
+        font-size: 22px
+    }
+    footer .footer-heading p{
+        font-size: 14px;
+    }
+    .mail-call{
+        
+        margin-left: -5px;;
+    }
+    .mail-call a{
+        font-size: 16px;
+    }
+    .mail-call .mail a span{
+        padding: 4px;
+        
+    }
+    .mail-call .mail a i{
+        padding: 0px;
+    }
+    .mail-call .call a i{
+        padding: 0px;
+    }
+    .mail-call .call a span{
+        padding: 8px;
+    }
+    .inside-social-footer{
+        gap: 6px;
+        margin-left: -5px;
+        
+    }
+    .inside-social-footer a{
+        width: 32px;
+        height: 32px;
+    }
+    .inside-social-footer a i{
+        font-size: 18px;
+    }
+    .copyrights  p{
+        font-size: 12px;
+        margin-left: 5%;
+    }
+    .inside-social-footer a:before,
+    .inside-social-footer a::after{
+        top: -3px;
+        left: -3px;
+    }
+    .social-footer .inside-social .remove{
+        display: none;
+    }
+    .hr-footer hr{
+        margin-top: 50px;
+        width: 90%;
+        margin-left: 5%;
+    }
+    /* sidenav */
+    .inside-nav nav ul{
+        justify-content: center;
+    }
+    .inside-nav nav ul a{
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+}
